@@ -1,5 +1,5 @@
 body{
-    background-color: #171717;
+    background-image:url(./Assets/Copy\ of\ Tracking\ page\ \(1\).png);
 }
 .nav{
     position: relative;
@@ -9,32 +9,34 @@ body{
     height:60px;
     width:60px;
     position: relative;
-    top:15px;
 }
 .nav>h1{
     color:white;
     position:relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 33px;
-}
-.container{
-    display: flex;
+    top:30px;
 }
 .tracker{
     margin:30px;
+    position: relative;
+    top:70px;
 }
 input{
     border-radius: 7px !important;
     border:0px;
     height:25px;
     text-align: center;
-    background-color: #5b5b5;
+    background-color: #5b5b5b !important;
+}
+::placeholder{
+    color:black;
 }
 .tracker>p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     margin:0px;
-    color:#a6a6a6;
+    color:white;
 }
 button{
     height:40px;
@@ -43,23 +45,46 @@ button{
     top:30px;
     border-radius: 20px;
     border:0px;
+    background:linear-gradient(to right,#a6a6a6,#5b5b5b);
 }
 button p{
     font-size: 15px;
     margin:0px;
+    font-weight: 550;
 }
 .name{
     width:200px;
     height:35px;
+    color:black !important;
 }
 .date{
     width:150px;
     height:35px;
-    border:2px solid white;
+    border:2px solid  #5b5b5b;
 
 }
 .time{
     width:110px;
-    border:2px solid white;
+    border:2px solid #5b5b5b;
     height:35px;  
+}
+.box{
+    position:relative;
+    bottom:300px;
+    left:100px;
+}
+p{
+    color: white;
+}
+.lis{
+    background-color: #5b5b5b;
+    color: white;
+}
+h4{
+    color: white;
+}
+.box>p{
+    font-weight: bold;
+    font-size: 20px;
+    
 }
