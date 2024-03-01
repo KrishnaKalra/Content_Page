@@ -1,0 +1,65 @@
+body{
+    background-color: #171717;
+}
+.nav{
+    position: relative;
+    bottom:35px;
+}
+.nav>h1>img{
+    height:60px;
+    width:60px;
+    position: relative;
+    top:15px;
+}
+.nav>h1{
+    color:white;
+    position:relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 33px;
+}
+.container{
+    display: flex;
+}
+.tracker{
+    margin:30px;
+}
+input{
+    border-radius: 7px !important;
+    border:0px;
+    height:25px;
+    text-align: center;
+    background-color: #5b5b5;
+}
+.tracker>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin:0px;
+    color:#a6a6a6;
+}
+button{
+    height:40px;
+    width:150px;
+    position:relative;
+    top:30px;
+    border-radius: 20px;
+    border:0px;
+}
+button p{
+    font-size: 15px;
+    margin:0px;
+}
+.name{
+    width:200px;
+    height:35px;
+}
+.date{
+    width:150px;
+    height:35px;
+    border:2px solid white;
+
+}
+.time{
+    width:110px;
+    border:2px solid white;
+    height:35px;  
+}
